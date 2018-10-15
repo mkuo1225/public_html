@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+}
+
+
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 1000px;
+    height: 180px;
+    border-top-color: red;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    clear: both;
+    position: fixed;
+}
+
+#nav {
+    width: 200px;
+    background-color: antiquewhite;
+    float: left;
+    position: fixed;
+}
+
+#nav, #content, #supporting{
+    margin-top: 180px;
+}
+
+#nav ul{
+    padding-left: 0px;
+}
+
+#nav li{
+    display: block;
+    background-color: coral;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+#nav li:hover{
+    background-color: black;
+}
+
+.container{
+    padding-top: 10px;
+}
+
+#content div > div{
+    padding-top: 180px;
+    margin-top: -180px;
+}
+
+/*
+.item{
+    padding-top: 180px;
+    margin-top: -180px;
+}
+*/
+
+#content{
+    width: 600px;
+    background-color: aquamarine;
+    float: left;
+    margin-left: 200px;
+
+}
+div.gallery{
+    border: 1px solid #ccc;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#supporting{
+    width: 200px;
+    background-color: bisque;
+    float: left;
+}
+
+#footer{
+    width: 800px;
+    height: 300px;
+    background-color: cornsilk;
+    clear: both;
+}
