@@ -1,0 +1,65 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #333;
+    z-index: 9t999;
+    border: 0;
+    font-size: 13px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+
+.jumbotron {
+    /*    background-color: coral;*/
+    background-image: url(/assets/cityhall.jpg);
+    background-position: center;
+    color: #fff;
+    /*text color*/
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+    height: 400px;
+    ;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+#visitthecity div, #eat div, #drink div{
+    padding-top: 70px;
+}
+
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

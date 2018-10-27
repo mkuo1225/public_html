@@ -1,0 +1,59 @@
+
+.jumbotron{
+    margin-bottom: 0px;
+    background-color:darkseagreen;
+    color: white;
+}
+
+#first {
+    background-image: url("/assets/brownies.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second {
+    background-image: url("/assets/choppingboard.jpg");
+    min-height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third {
+    background-image: url("/assets/1.png");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#forth {
+    background-image: url("/assets/2.png");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fifth {
+    background-image: url("/assets/3.png");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sixth {
+    background-image: url("/assets/choppingboard.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
